@@ -1,0 +1,8 @@
+/conf/db.ini
+/conf/conf.php
+/app/config/config.php
+/webroot/jpush.log
+.idea
+tmp
+vendor
+/composer.lock

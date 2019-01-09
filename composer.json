@@ -1,0 +1,15 @@
+{
+    "require": {
+        "predis/predis": "^1.1",
+        "jpush/jpush": "3.6.1",
+        "phalcon/incubator":"^2.0"
+
+
+    },
+    "repositories": {
+        "packagist": {
+            "type": "composer",
+            "url": "https://packagist.phpcomposer.com"
+        }
+    }
+}
