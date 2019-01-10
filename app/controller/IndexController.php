@@ -50,6 +50,7 @@ class IndexController extends BaseController
     {
         echo 3311;
         echo 2222;
+        echo 1111;
     }
 
 }
