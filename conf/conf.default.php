@@ -26,7 +26,7 @@ return [
      * @var false=不开启 true=开启
      * @descript 默认开启
      */
-    'IS_SIGN'  => false,
+    'IS_SIGN'  => true,
 
     /**
      * 平台授权码
