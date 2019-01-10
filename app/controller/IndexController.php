@@ -48,7 +48,7 @@ class IndexController extends BaseController
 
     public function index2()
     {
-        echo 333;
+        echo 3311;
     }
 
 }
