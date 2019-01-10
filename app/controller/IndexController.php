@@ -46,4 +46,9 @@ class IndexController extends BaseController
         }
     }
 
+    public function index2()
+    {
+        echo 333;
+    }
+
 }
