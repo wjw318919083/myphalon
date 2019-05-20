@@ -32,6 +32,7 @@ try
     );
     $loader->registerNamespaces([
         'app\model' => ROOT . 'app/model/',
+        'App\Common' => ROOT . 'common/',
     ]);
     $loader->register();
 
