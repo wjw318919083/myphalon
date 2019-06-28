@@ -5,7 +5,7 @@ class IndexController extends BaseController
 {
     public function index()
     {
-        // 生成Uuid
+        // 生成Uuid 32位
         echo getUuid();die;
         $instance = Single::getInstance();
         var_dump($instance);die;
