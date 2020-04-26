@@ -7,6 +7,7 @@ class IndexController extends BaseController
 {
     public function index()
     {
+        echo 2222;
         // echo date ( 'YmdHis' );die;
         // $m = new HistoryHearModel;
         // $o = $m->findFirst("id = '1a74471e0e1e4159bdbd9fd9ae21d27a'")->toArray();
