@@ -2,6 +2,7 @@
 /**
  * Redis 集群配置
  */
+return [];
 return [
     // Redis 服务器地址。
     'parameter' => [
