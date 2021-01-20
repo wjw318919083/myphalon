@@ -6,7 +6,7 @@ class IndexController extends BaseController
     public function index()
     {
         // 生成Uuid
-        // test
+        // test add test
         // test1
         echo getUuid();die;
         $instance = Single::getInstance();
