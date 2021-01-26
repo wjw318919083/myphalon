@@ -10,7 +10,7 @@ class IndexController extends BaseController
         // 生成Uuid
         // add test
         // add test1
-        // test code
+        // this is test branch, update one line
         echo getUuid();die;
         $instance = Single::getInstance();
         var_dump($instance);die;
