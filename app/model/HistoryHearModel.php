@@ -17,5 +17,10 @@ class HistoryHearModel extends Model
         $this->setSource(getTbName('xs_history_hears'));     //模型对应的表名
         $this->setReadConnectionService('eduwork_slave');     //从库
         $this->setWriteConnectionService('eduwork_master');   //主库
+
+        /**
+         *与线索主表的模型关系
+         */
+        $this->belongsTo('clue_id','McParentsModel','id',array( 'alias' => 'McParents'));
     }
 }
